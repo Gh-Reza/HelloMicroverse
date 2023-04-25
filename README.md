@@ -65,14 +65,57 @@ After you're finished please remove all the comments and instructions!
 **[Hello microverse]** is a project to make students learn about linters and other project initial settings.
 
 ## 🛠 Built With <a name="built-with"></a>
-- VSCode
-- Git version control
 
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.microverse.org/">HTML5</a></li>
+    <li><a href="https://www.microverse.org/">CSS3</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">VS CODE Live Server Extension</a></li>
+  </ul>
+</details>
+
+### Key Features <a name="key-features"></a>
+
+- **[Best Practices]**
+
+In this project best coding practices is use
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
-- Google Chrome or other browser
+
+Google Chrome or other browser
+
+```sh
+  https://www.google.com/chrome/?brand=JJTC&gclid=CjwKCAjw9J2iBhBPEiwAErwpeSDcMFWiIQWj2u5GY6owZ7OaOHw7dYYCHW7uTR4kvYosNJYd4wt4VxoCiywQAvD_BwE&gclsrc=aw.ds
+```
+
+Github Account:
+```sh
+  https://github.com/
+```
+Npm installed: 
+```sh
+  https://nodejs.org/en/download
+```
+
+Git installed: 
+```sh
+  https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+```
 
 ### Setup
 
@@ -81,6 +124,25 @@ Clone this repository to your desired folder:
 ```sh
   cd my-folder
   git clone git@github.com:Gh-Reza/HelloMicroverse.git
+```
+
+### Install
+
+Install this project with:
+
+Linters:
+
+Lighthouse run:
+```sh
+  npm install -g @lhci/cli@0.7.x
+```
+Webhint run 
+```sh
+ npm install --save-dev hint@7.x
+```
+StyleLint run:
+```sh
+ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 ```
 
 ### Usage
@@ -92,10 +154,25 @@ To run the project, execute the following command:
   index.html
 ```
 
+### Run tests
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+To run tests, run the following command:
 
-<!-- AUTHORS -->
+to check for styling errors:
+
+```sh
+  npx stylelint "**/*.{css,scss}"
+```
+To test optimization:
+```sh
+  lighthouse [site url]
+```
+
+### Deployment
+
+You can deploy this project using:
+
+Your working browser.
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -105,8 +182,6 @@ To run the project, execute the following command:
 - Twitter: [@twitterhandle](https://twitter.com/RezaMerzaie)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/reza-merzaie-b94368202/)
 
-<!-- CONTRIBUTING -->
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -115,8 +190,6 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project, don't forget to star.
@@ -124,10 +197,8 @@ If you like this project, don't forget to star.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- LICENSE -->
-
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
